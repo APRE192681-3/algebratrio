@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "algebratrio"
+version = "0.0.1"
+authors = [
+    {name = "Rodrigo Rosales, Andrea Reyes y Paula Rayas", email = "192564-0@iberoleon.edu.mx"}
+]
+description = "Una librería de álgebra lineal para la comunidad de IA."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "numpy==1.26.0",
+    "matplotlib==3.8.1",
+    "scipy==1.11.3"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/APRE192681/algebratrio"
+"Bug Tracker" = "https://github.com/APRE192681/algebratrio/issues"
