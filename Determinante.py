@@ -10,3 +10,4 @@ a=[5,-3]
 b=[6,7]
 resultado=Determinante(a,b)
 print("El determinate de la matriz es: ",resultado)
+#salchicha
